@@ -1,4 +1,4 @@
-* {
+** {
     text-decoration: none;
     max-width: 500x;
     font-family: 'Comfortaa','Sans-Serif';
@@ -78,7 +78,7 @@
     text-align: center;
     margin-top: -6px;
     margin-bottom: 12px;
-    margin-left: -37px;
+    margin-left: -25px;
     font-size: 1.5em;
     display: block;
     width: 190px;
@@ -91,7 +91,6 @@
     margin-top: 8px;
     display: block;
     padding-bottom: 3px;
-    margin-left: 13px;;
 }
 
 #current {
