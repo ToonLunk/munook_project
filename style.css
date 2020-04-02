@@ -1,0 +1,160 @@
+* {
+    text-decoration: none;
+    max-width: 500x;
+    font-family: 'Comfortaa','Sans-Serif';
+    
+}
+
+#div1.animated {
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-delay: 1s;
+}
+
+#div1 {
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 0; /* Stay on top */
+    top: -2%; /* Stay at the top */
+    left: 0;
+    background-color: #1f1f1f; /* Black */
+    padding-top: px;
+    width: 210px;
+    margin-left: -1px;
+    display: block;
+    min-width: 200px;
+    height: 110%;
+    overflow-y:auto;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+
+#topImg {
+    width: 200px;
+    padding-top: 1vh;
+    margin-left: 4px;
+}
+
+.socialDiv h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 23px;
+}
+
+.logos {
+    width: 40px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    margin-top: -14px;
+    padding-top: 10px;
+}
+
+#appleDiv {
+    margin-left: 26px;
+    width: 100px;
+    margin-bottom: 50px;
+}
+
+#appleDiv p {
+    color: whitesmoke;
+    font-size: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+#navMenu {
+    background-color: whitesmoke;
+    border-radius: 2.5vh;
+    border: solid #1f1f1f 1vh;
+
+}
+
+#navMenu ul {
+    color: #1F1F1F;
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+    margin-left: -38px;
+    font-size: 1.5em;
+    display: block;
+    width: 190px;
+}
+
+#navMenu ul li {
+    padding-top: .01vh;
+    border-bottom: #1F1F1F 1px solid;
+    width: 160px;
+    list-style-type: none;
+    margin-top: 1vh;
+    display: block;
+    padding-bottom: 3px;
+    margin-left: 15px;;
+}
+
+#current {
+    padding-top: .3vh;
+    color: silver !important;
+}
+
+#navMenu ul li a {
+    color: #1f1f1f;
+}
+
+.socialDiv h1 {
+    margin-top: 1px;
+    padding-left: 5px;
+}
+
+body{
+    background-color: #000;
+     background-image: url(../media/inandofit_cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+main {
+    margin-left: 320px;; /* Same as the width of the sidebar */
+    padding: 0px 60px 2px 0px;
+    z-index: 2;
+    min-width: 500px;
+}
+
+main p {
+    color: #1f1f1f;
+    background-color: rgba(255,255,255, .91);
+    border-radius: 5px;
+    padding: 15px;
+    margin-right: 50px;
+    display: inline-block;
+}
+
+
+main h1 {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px;
+    color: #1f1f1f;
+    background-color: rgba(255,255,255, .92);
+    min-width: 250px;
+}
+
+a.animated:hover {
+    -webkit-animation: bounceIn 3s;
+    animation: bounceIn 3s;
+    -webkit-animation-iteration-count: 1;
+}
+
+img.animated:hover {
+    -webkit-animation: fadeIn 3s;
+    animation: fadeIn 3s;
+    -webkit-animation-iteration-count: 1;
+}
+
+.text {
+    -webkit-animation: 2s;
+    animation: 2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-delay: 2s;
+}
