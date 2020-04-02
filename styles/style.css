@@ -82,6 +82,7 @@
     font-size: 21px;
     display: block;
     width: 194px;
+    margin-right: -5px;
 }
 
 #navMenu ul li {
