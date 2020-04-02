@@ -119,7 +119,7 @@ body{
 }
 
 main {
-    margin-left: 280px;; /* Same as the width of the sidebar */
+    margin-left: 295px; /* Same as the width of the sidebar */
     padding: 0px 60px 2px 0px;
     z-index: 2;
     min-width: 500px;
