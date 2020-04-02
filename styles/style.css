@@ -119,7 +119,7 @@ body{
 }
 
 main {
-    margin-left: 320px;; /* Same as the width of the sidebar */
+    margin-left: 280px;; /* Same as the width of the sidebar */
     padding: 0px 60px 2px 0px;
     z-index: 2;
     min-width: 500px;
@@ -132,6 +132,7 @@ main p {
     padding: 15px;
     margin-right: 50px;
     display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif !important;
 }
 
 
