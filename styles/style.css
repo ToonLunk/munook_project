@@ -17,7 +17,7 @@
     left: 0;
     background-color: #1f1f1f; /* Black */
     padding-top: px;
-    width: 210px;
+    width: 209px;
     margin-left: -1px;
     display: block;
     min-width: 200px;
@@ -35,7 +35,7 @@
 }
 
 .socialDiv {
-    margin-top: -8px;
+    
 }
 
 .socialDiv h1 {
@@ -76,12 +76,12 @@
 #navMenu ul {
     color: #1F1F1F;
     text-align: center;
-    margin-top: -6px;
-    margin-bottom: 12px;
+    margin-top: -4px;
+    margin-bottom: 4px;
     margin-left: -25px;
-    font-size: 1.5em;
+    font-size: 21px;
     display: block;
-    width: 190px;
+    width: 194px;
 }
 
 #navMenu ul li {
