@@ -71,8 +71,8 @@
 #navMenu ul {
     color: #1F1F1F;
     text-align: center;
-    margin-top: 2vh;
-    margin-bottom: 3vh;
+    margin-top: -4px;
+    margin-bottom: 12px;
     margin-left: -38px;
     font-size: 1.5em;
     display: block;
@@ -80,7 +80,6 @@
 }
 
 #navMenu ul li {
-    padding-top: .01vh;
     border-bottom: #1F1F1F 1px solid;
     width: 160px;
     list-style-type: none;
