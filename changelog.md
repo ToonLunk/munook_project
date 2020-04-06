@@ -8,6 +8,8 @@ Added content to Discography:
 
 * Spotify player
 
+Updated style.css to make Discography look good
+
 # version 0.1.1
 
 Added compatibility for mobile (most phones) and tablets
