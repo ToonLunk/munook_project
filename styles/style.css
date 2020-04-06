@@ -151,7 +151,7 @@ a.animated:hover {
     -webkit-animation-iteration-count: 1;
 }
 
-img.animated:hover {
+#div1 img.animated:hover {
     -webkit-animation: fadeIn 3s;
     animation: fadeIn 3s;
     -webkit-animation-iteration-count: 1;
@@ -162,4 +162,30 @@ img.animated:hover {
     animation: 2s;
     -webkit-animation-iteration-count: 1;
     -webkit-animation-delay: 2s;
+}
+
+#albumDiv {
+    color: #1f1f1f;
+    background-color: #1f1f1f;
+    border-radius: 5px;
+    padding: 25px;
+    display: block;
+    align-content: center;
+    margin-top: 10px;
+}
+
+#albumDiv img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    padding-bottom: 10px;
+}
+
+#albumDiv iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #1f1f1f 5px;
+    border-radius: 20px;
 }
