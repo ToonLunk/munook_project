@@ -2,6 +2,8 @@
 
 Added Discography tab
 
+Added Gallery tab
+
 Added content to Discography:
 
 * Album art
@@ -9,6 +11,7 @@ Added content to Discography:
 * Spotify player
 
 Updated style.css to make Discography look good
+
 
 # version 0.1.1
 
