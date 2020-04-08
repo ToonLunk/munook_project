@@ -1,3 +1,7 @@
+# version 0.2
+
+# # store
+
 # version 0.1.2
 
 Added Discography tab
