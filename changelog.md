@@ -1,6 +1,14 @@
 # version 0.2
 
-# # store
+Store Tab: 
+* store tab now goes to shop.html
+* Linked ecwid.com to Store tab
+* Formatted store tab, can be changed
+
+Gallery Tab:
+* Gallery tab looks less like shit
+* Normalized all images sizes, crops some images, but images are now clickable to view the full image in a new tab
+* Added descriptions under images
 
 # version 0.1.2
 
