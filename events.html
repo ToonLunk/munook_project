@@ -21,10 +21,23 @@
         <!-- for animations -->
         <link rel="stylesheet" type="text/css" href="./styles/animate.css">
         
+        <link href='/core/main.css' rel='stylesheet' />
+        <link href='/daygrid/main.css' rel='stylesheet' />
+        
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
         <title>Home | Munook</title>
+        
+<script src='fullcalendar/core/main.js'></script>
+<script src='fullcalendar/google-calendar/main.js'></script>
+<script>
+...
+var calendar = new FullCalendar.Calendar(calendarEl, {
+  plugins: [ 'googleCalendar' ]
+});
+...
+</script>
     </head>
     
     <body>
@@ -37,10 +50,11 @@
             
         
                 <ul>
+                
                     <li><a class="animated pulse infinite" href="disco.html">discography</a></li>
-                    <li><a class="animated pulse infinite" href="events.html">events</a></li>             
+                    <li><a class="animated pulse infinite" id="current">events</a></li>             
                     <li><a class="animated pulse infinite" href="shop.html">store</a></li>
-                    <li><a class="animated pulse infinite" href="gallery.html" id="current">gallery</a></li>
+                    <li><a class="animated pulse infinite" href="gallery.html">gallery</a></li>
 
                 
                 </ul>
@@ -78,61 +92,35 @@
             </div>         
         </div>
         
-        <main class="animated fadeInRight">
-
-             <div class="gallery">
-                 <a href="media/inandofit.jpg" target="_blank">
-                <img src="media/inandofit.jpg" width="600" height="400"></a>
-                <div class="desc">Add a description of the image here</div>
-    
-            </div>
-            <div class="gallery">
-                 <a href="media/test.jpg" target="_blank">
-                <img src="media/test.jpg" width="600" height="400"></a>
-                <div class="desc">Add a description of the image here</div>
-    
-            </div>
-            <div class="gallery">
-                 <a href="media/inandofit.jpg" target="_blank">
-                <img src="media/inandofit.jpg" width="600" height="400"></a>
-                <div class="desc">Add a description of the image here</div>
-    
-            </div>
-            <div class="gallery">
-                 <a href="media/applelogo.png" target="_blank">
-                <img src="media/inandofit.jpg" width="600" height="400"></a>
-                <div class="desc">Add a description of the image here</div>
-    
-            </div>
+        <main>
+            <div id="calDiv" class="animated fadeInRightBig">
             
-            <div class="gallery">
-                 <a href="media/inandofit.jpg" target="_blank">
-                <img src="media/inandofit.jpg" width="600" height="400"></a>
-                <div class="desc">Add a description of the image here</div>
-    
-            </div>
-            <div class="gallery">
-                 <a href="media/test.jpg" target="_blank">
-                <img src="media/test.jpg" width="600" height="400"></a>
-                <div class="desc">Add a description of the image here</div>
-    
-            </div>
-            <div class="gallery">
-                 <a href="media/inandofit.jpg" target="_blank">
-                <img src="media/inandofit.jpg" width="600" height="400"></a>
-                <div class="desc">Add a description of the image here</div>
-    
-            </div>
-            <div class="gallery">
-                 <a href="media/applelogo.png" target="_blank">
-                <img src="media/inandofit.jpg" width="600" height="400"></a>
-                <div class="desc">Add a description of the image here</div>
-    
-            </div>
+            <link target="_blank" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.min.css" rel="stylesheet">
+            <link  target="_blank" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.print.css" rel="stylesheet" media="print">
+            <script src="https://momentjs.com/downloads/moment.min.js"></script>
+            <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+            <script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.min.js'></script>
+            <script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/gcal.min.js'></script>
+            <script type='text/javascript'>
 
+$(document).ready(function() {
+   
+  $('#calendar').fullCalendar({
+        googleCalendarApiKey: 'AIzaSyC1HbNYV9nwEaOOcIdrBQsgcMm09S2qHm0',
+        events: {
+            googleCalendarId: 'cv1jdpp7hcnke432u8uekrko0k@group.calendar.google.com'
+        }
+    });
+});
 
-            
-        </main>
+</script>
+
+<div id='loading'>loading...</div>
+<div id='calendar'></div>
+            </div>
+                
+                </main>
+        
     </body>
 
 
