@@ -1,7 +1,7 @@
 * {
     text-decoration: none;
     max-width: 500x;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif !important;
     
 }
 
@@ -12,7 +12,6 @@
 
 #div1 {
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 0; /* Stay on top */
     top: -2%; /* Stay at the top */
     left: 0;
     background-color: #1f1f1f; /* Black */
@@ -43,6 +42,7 @@
     text-align: center;
     font-size: 23px;
     margin-left: -5px;
+    padding-bottom: 5px;
 }
 
 .logos {
@@ -126,9 +126,9 @@ main {
 }
 
 main p {
-    color: #1f1f1f;
-    background-color: rgba(255,255,255, .91);
-    border-radius: 5px;
+    color: white;
+    background-color: rgba(31,31,31, .91);
+    border-radius: 15px;
     padding: 15px;
     margin-right: 50px;
     display: inline-block;
@@ -139,9 +139,9 @@ main p {
 main h1 {
     display: inline-block;
     border-radius: 10px;
-    padding: 5px;
-    color: #1f1f1f;
-    background-color: rgba(255,255,255, .92);
+    padding: 10px;
+    color: white;
+    background-color: rgba(31,31,31, .92);
     min-width: 250px;
 }
 
@@ -178,7 +178,7 @@ a.animated:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 350px;
+    width: 300px;
     padding-bottom: 10px;
 }
 
@@ -189,3 +189,60 @@ a.animated:hover {
     border: solid #1f1f1f 5px;
     border-radius: 20px;
 }
+
+div.gallery {
+    margin: 10px;
+    border: 1px solid #1f1f1f;
+    border-radius: 10px;
+    float: left;
+    width: 250px;
+    background-color: #1f1f1f;
+    padding: 6px;
+}
+
+div.gallery:hover {
+    color: gray;
+    opacity: .97;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    min-height: 250px;
+    max-height: 250px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+    border: #1f1f1f solid 2px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+
+#ecwid_body {
+    background-color: #1f1f1f;
+    margin-top: 10px;
+    color: white;
+}
+
+#ecwid_body a:hover{
+    color: darkgray;
+}
+
+#shopDiv {
+    background-color: #1f1f1f;
+    margin-top: 10px;
+    color: white;
+    z-index: 100002;
+    display: block;
+    position: relative;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
