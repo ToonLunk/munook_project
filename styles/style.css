@@ -69,16 +69,16 @@
 #navMenu {
     background-color: whitesmoke;
     border-radius: 25px;
-    border: solid #1f1f1f 1vh;
+    border: solid #1f1f1f 5px;
 
 }
 
 #navMenu ul {
     color: #1F1F1F;
     text-align: center;
-    margin-top: -4px;
-    margin-bottom: 9px;
-    margin-left: -23px;
+    margin-top: 13px;
+    margin-bottom: 12px;
+    margin-left: -21px;
     font-size: 21px;
     display: block;
     width: 194px;
@@ -89,7 +89,7 @@
     border-bottom: #1F1F1F 1px solid;
     width: 160px;
     list-style-type: none;
-    margin-top: 8px;
+    margin-top: 10px;
     display: block;
     padding-bottom:5px;
 }
@@ -167,8 +167,8 @@ a.animated:hover {
 #albumDiv {
     color: #1f1f1f;
     background-color: #1f1f1f;
-    border-radius: 5px;
-    padding: 25px;
+    border-radius: 20px;
+    padding: 30px;
     display: block;
     align-content: center;
     margin-top: 10px;
@@ -178,7 +178,7 @@ a.animated:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
+    width: 400px;
     padding-bottom: 10px;
 }
 
@@ -246,3 +246,23 @@ div.desc {
     padding-top: 10px;
 }
 
+#calDiv {
+    margin-top: 10px;
+    background: rgba(255,255,255,0.9);
+    color: #1f1f1f;
+    border: 3px solid rgba(255,255,255,0.01);
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+#loading {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#calendar {
+    margin: 0 auto;
+}
