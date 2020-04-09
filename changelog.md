@@ -1,3 +1,14 @@
+# version 1 (potential release)
+
+News Tab Removed (pointless, since home page exists for the purpose)
+
+Events Tab:
+* Changed "Tour" tab to "Events"
+* Linked Events tab to events.html
+* Linked Google Calendar with FullCalendar.io for event/tour dates
+
+Adjusted formatting, fixed rare bug where side navbar messes up when windows are resized in firefox
+
 # version 0.2
 
 Store Tab: 
